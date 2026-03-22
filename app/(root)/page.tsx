@@ -14,6 +14,7 @@ const HomePage = async () => {
         await signOut({redirectTo: ROUTES.SIGN_IN})
       }}>
       </form>
+      <h1>Welcome</h1>
     </>
   )
 }
